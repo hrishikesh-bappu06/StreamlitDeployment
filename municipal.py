@@ -1,4 +1,3 @@
-
 import streamlit as st
 import google.generativeai as genai
 from PIL import Image
@@ -399,5 +398,4 @@ elif user_input:
         rerun_needed = True # Always rerun if stage changes
 
     if rerun_needed:
-        
         st.rerun()
