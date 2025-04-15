@@ -399,4 +399,5 @@ elif user_input:
         rerun_needed = True # Always rerun if stage changes
 
     if rerun_needed:
-      st.rerun()
+        
+        st.rerun()
